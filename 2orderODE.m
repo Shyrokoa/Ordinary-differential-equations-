@@ -36,6 +36,7 @@ title('Euler explicit method for h = 0.0001;');
 legend('y1','y2','Location','best');
 grid on
 hold off
+
 figure(2)
 hold on
 plot(T,yH(1,:),'g-', T,yH(2,:),'r-')
@@ -43,6 +44,7 @@ title('Heun`s method for h = 0.0001;');
 legend('y1','y2','Location','best');
 grid on
 hold off
+
 figure(3)
 hold on
 plot(T,yRK(1,:),'g-', T,yRK(2,:),'r-')
